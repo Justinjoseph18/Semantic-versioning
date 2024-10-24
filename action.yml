@@ -1,9 +1,0 @@
-name: 'Semantic Versioning'
-description: 'Bumps version and creates a release based on PR title'
-inputs:
-  github_token:
-    description: 'GitHub token to authenticate'
-    required: true
-runs:
-  using: 'node16'
-  main: 'index.js'
